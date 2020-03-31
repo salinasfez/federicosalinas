@@ -73,10 +73,10 @@ body {
         width: 250px;
         /* margin-top: 150px; */
       }
-    .me:hover {
+    /* .me:hover {
         box-shadow: 0 0 2px 1px red;
         opacity: .5;
-      }
+      } */
     .who-i-am {
         color: black;
         font-size: 20px;
@@ -112,9 +112,7 @@ body {
         width: 8%;
     
     }
-    .icons:hover{
-        transform: scale(1.2);
-    }
+    
     #resume-link {
         /* border: 1px solid red; */
         width: 8%;
@@ -139,10 +137,10 @@ body {
     height: 300px;
     margin-left: 7%;
   }
-.me:hover {
+/* .me:hover {
     box-shadow: 0 0 2px 1px red;
     opacity: .5;
-  }
+  } */
 .who-i-am {
     color: black;
     font-size: 20px;
@@ -179,9 +177,9 @@ body {
     width: 6%;
 
 }
-.icons:hover{
+/* .icons:hover{
     transform: scale(1.2);
-}
+} */
 #resume-link {
     /* border: 1px solid red; */
     width: 6%;
