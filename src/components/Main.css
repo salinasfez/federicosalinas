@@ -180,10 +180,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border: 1px solid black;
 }
 /* each individual icon will be 6% */
 .icons {
     width: 6%;
+    height: 100%;
+    border: 1px dashed black;
 
 }
 .icons:hover{
