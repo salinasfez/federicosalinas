@@ -31,7 +31,7 @@
     background-color: #d0cfcf;
     height: 20%;
 }
-/* @media screen and (max-width: 812px) {
+@media screen and (max-width: 812px) {
     .flex-container{
         width: 100%;
     }
@@ -65,4 +65,4 @@
     #first-image {
         margin-top: 0%;
     }
-} */
+}

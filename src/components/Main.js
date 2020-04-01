@@ -42,7 +42,7 @@ class Main extends React.Component{
                     <h1 className='item who-i-am'>Federico Salinas || <span id='job-description'>Full-Stack Developer</span></h1>
                     <p id='technologies-main'>HTML 5 | MongoDB | jQuery | Javascript | React | Express | CSS3 | Bootstrap</p>
                 <div className='icon-container'>
-                    <img src={require('../images/linkedin.png')} alt={'linkedin'} className='icons' onClick={() => this.linkedInTab()}/>
+                    <img src={require('../images/linkedinsvg.svg')} alt={'linkedin'} className='icons' onClick={() => this.linkedInTab()}/>
                     <img src={require('../images/github-icon.png')} alt={'github'} className='icons'onClick={() => this.gitHubTab()}/>
                     <img src={require('../images/email-icon.svg')} alt={'github'} className='icons'onClick={() => this.emailTab()}/>
                     <img src={require('../images/phone-icon.png')} alt={'github'} className='icons' onClick ={() => this.callFederico()}/>
