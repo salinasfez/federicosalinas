@@ -59,7 +59,7 @@ body {
     width: 6%;
     
 }
-@media (max-width: 812px) {
+@media screen and (max-width: 812px) {
     body {
     
         align-content: center;
@@ -121,7 +121,7 @@ body {
 }
 
     
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
 
 body {
     
