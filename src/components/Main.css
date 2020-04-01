@@ -65,7 +65,7 @@ body {
         align-content: center;
         margin: 0 auto;
     }
-    #main-image {
+    .me {
         
         border: 1px solid red;
         border-radius: 50%;
