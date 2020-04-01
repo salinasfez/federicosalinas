@@ -37,15 +37,15 @@ class Main extends React.Component{
         return(
             <div>
               <div className='container'>
-                    <img className='me item' id='main-image' src={require('../images/bg.jpg')} alt="background" />
+                    <img className='me item' id='main-image' src={require('../images/background-me.svg')} alt="background" />
                 <div className='center-item'>
                     <h1 className='item who-i-am'>Federico Salinas || <span id='job-description'>Full-Stack Developer</span></h1>
                     <p id='technologies-main'>HTML 5 | MongoDB | jQuery | Javascript | React | Express | CSS3 | Bootstrap</p>
                 <div className='icon-container'>
                     <img src={require('../images/linkedinsvg.svg')} alt={'linkedin'} className='icons' onClick={() => this.linkedInTab()}/>
-                    <img src={require('../images/github-icon.png')} alt={'github'} className='icons'onClick={() => this.gitHubTab()}/>
+                    <img src={require('../images/github-icon.svg')} alt={'github'} className='icons'onClick={() => this.gitHubTab()}/>
                     <img src={require('../images/email-icon.svg')} alt={'github'} className='icons'onClick={() => this.emailTab()}/>
-                    <img src={require('../images/phone-icon.png')} alt={'github'} className='icons' onClick ={() => this.callFederico()}/>
+                    <img src={require('../images/phone-icon.svg')} alt={'github'} className='icons' onClick ={() => this.callFederico()}/>
                     {/* <img src={require('../images/resume-icon.svg')} alt={'github'} className='icons' onClick={() => this.downloadResume()}/> */}
                     <a id='resume-link' className='icons' download='federico_salinas_resume.pdf' href={resume}><img  width={'110%'} height={'100%'} src={require('../images/resume-icon.svg')} alt={'github'}/></a>
                 </div>
