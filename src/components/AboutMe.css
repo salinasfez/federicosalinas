@@ -31,14 +31,14 @@
     background-color: #d0cfcf;
     height: 20%;
 }
-@media screen and (max-width: 812px) {
+@media (max-width: 812px) {
     .flex-container{
         width: 100%;
     }
 }
 
 
-@media screen and (max-width: 450px){
+@media (max-width: 450px){
     .flex-container {
         width: 100%;
         margin: 0 auto;
