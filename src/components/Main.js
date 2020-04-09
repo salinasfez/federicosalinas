@@ -40,7 +40,7 @@ class Main extends React.Component{
                     <img className='me'  src={require('../images/background-me.svg')} alt="background" />
                 <div className='center-item'>
                     <h1 className='item who-i-am'>Federico Salinas || <span id='job-description'>Full-Stack Developer</span></h1>
-                    <p id='technologies-main'>HTML 5 | MongoDB | jQuery | Javascript | React | Express | CSS3 | Bootstrap</p>
+                    <p id='technologies-main'>HTML 5 | MongoDB | jQuery | Javascript | React | Ruby on Rails | Express | CSS3 | Bootstrap</p>
                     <div className='icon-container'>
                         <img src={require('../images/linkedinsvg.svg')} alt={'linkedin'} className='icons' onClick={() => this.linkedInTab()}/>
                         <img src={require('../images/github-icon.svg')} alt={'github'} className='icons'onClick={() => this.gitHubTab()}/>
