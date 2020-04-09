@@ -9,7 +9,7 @@ class AboutMe extends React.Component{
             <div className='flex-container'>
                 <div className='flex-item' id='technologies'>
                     <h4>Technologies</h4>
-                    HTML 5 | MongoDB | jQuery | Javascript | React | Express | CSS3 | Bootstrap
+                    HTML 5 | MongoDB | jQuery | Javascript | React | Ruby on Rails | Express | CSS3 | Bootstrap
                 </div>
                 <div id='paragraph' className='flex-item'>
                 {/* Software developer committed to creating the most efficient solutions to routine methods in order to save companies money and provide users with a seamless experience. I focus on leading by example and keeping my team moving forward. In the workplace, I believe that by supporting and elevating my coworkers, we all find greater success. Honesty, hard work, and gratitude are my lifestyle.  */}
