@@ -16,11 +16,15 @@ body {
     margin-top: 4%;
 }
 .images{
-    width: 30%;
-    
+    /* width: 30%; */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
 }
 .images:hover {
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .projects-paragraph {
     margin-top: 5%;
@@ -34,11 +38,14 @@ body {
     margin-top: 2%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 2%;
+    justify-content: space-around;
+    /* padding: 2%; */
 }
 .project-links {
     text-align: start;
     color: black;
     
+}
+p {
+    text-align: left;
 }
