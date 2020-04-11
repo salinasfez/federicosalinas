@@ -86,7 +86,7 @@
         margin-top: 0%;
     }
     #paragraph {
-        border: 5px inset rgb(28, 124, 227);
+        /* border: 5px inset rgb(28, 124, 227); */
 
         padding: 10px;
         overflow: scroll;
