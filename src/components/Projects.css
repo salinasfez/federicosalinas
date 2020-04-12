@@ -41,11 +41,14 @@ body {
     justify-content: space-around;
     /* padding: 2%; */
 }
-.project-links {
+/* .project-links {
     text-align: start;
     color: black;
     
-}
+} */
 p {
     text-align: left;
 }
+/* .project-details {
+    background-color: rgb(77, 94, 150);
+} */
