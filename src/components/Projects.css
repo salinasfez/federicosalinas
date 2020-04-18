@@ -49,6 +49,7 @@ body {
 p {
     text-align: left;
 }
-/* .project-details {
-    background-color: rgb(77, 94, 150);
-} */
+.second-project {
+    background-color: rgb(221, 215, 215);
+    padding-top: 2%;
+}
