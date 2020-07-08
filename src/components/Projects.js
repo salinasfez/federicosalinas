@@ -14,6 +14,18 @@ class Projects extends React.Component{
     return(
             <div className='flex-container'>   
                     {/* <h2 id='main-header'>Mercy Health Appointment Center</h2> */}
+                    <div className='image-container second-project'>
+                                <a target='_blank' href={'http://eightballinktattoo.com/'}><img src={require('../images/8ink.svg')} className='images'id='first-image'/></a>
+                                {/* <img src={require('../images/mercy_appointments.svg')} className='images'/>
+                                <img src={require('../images/mercy_details.svg')} className='images'/> */}
+                                <div className='project-details'>
+                                     <h5> 8ball Ink Tattoo</h5><br></br>
+                                    <p> Technologies used: HTML5, Bootstrap, React, Javascript, Express</p>
+                                    <p>Description: Business app able to send messages directly to owners mobile.</p>
+                                    <a className='project-links' href={'http://eightballinktattoo.com/'} target='_blank'>Project link ---></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a target='_blank' href='https://github.com/salinasfez/eightballinktatoo'>Github Code ---></a>
+                                </div>
+                        </div>
                         <div className='image-container'>
                                 <a target='_blank' href={'https://federico-budget-app.herokuapp.com/'}><img src={require('../images/budget-app.svg')} className='images'id='first-image'/></a>
                                 {/* <img src={require('../images/mercy_appointments.svg')} className='images'/>
