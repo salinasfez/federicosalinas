@@ -37,7 +37,7 @@ class Main extends React.Component{
         return(
             <div>
               <div className='container'>
-                    <img className='me'  src={require('../images/background-me.svg')} alt="background" />
+                    <img className='me'  src={require('../images/federico.JPG')} alt="background" />
                 <div className='center-item'>
                     <h1 className='item who-i-am'>Federico Salinas || <span id='job-description'>Full-Stack Developer</span></h1>
                     <p id='technologies-main'>HTML 5 | MongoDB | jQuery | Javascript | React | Ruby on Rails | Express | CSS3 | Bootstrap</p>
