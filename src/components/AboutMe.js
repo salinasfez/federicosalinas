@@ -1,15 +1,15 @@
 import React from 'react';
-import './AboutMe.css';
+import classes from './AboutMe.module.css';
 import resume from '../images/federico_salinas_resume.pdf'
 import {Button} from 'react-bootstrap';
 class AboutMe extends React.Component{
     
     render(){
         return(
-            <div className='flex-container'>
+            <div className={classes.AboutMe}>
                 <div className='flex-item' id='technologies'>
-                    <h4>Technologies</h4>
-                    HTML 5 | MongoDB | jQuery | Javascript | React | Ruby on Rails | Express | CSS3 | Bootstrap
+                    <h4>About Me</h4>
+                    
                 </div>
                 <div id='paragraph' className='flex-item'>
                 {/* Software developer committed to creating the most efficient solutions to routine methods in order to save companies money and provide users with a seamless experience. I focus on leading by example and keeping my team moving forward. In the workplace, I believe that by supporting and elevating my coworkers, we all find greater success. Honesty, hard work, and gratitude are my lifestyle.  */}
@@ -25,7 +25,6 @@ class AboutMe extends React.Component{
                 </div>
                 <div id='download-resume-section'>
                     <a id='resume-link' download='federico_salinas_resume.pdf' href={resume}><Button>Download Resume</Button></a>
-                    <a id='resume-link' download='federico_salinas_resume.pdf' href={resume}><img width={'20%'} height={'20%'} src={require('../images/resume-icon.svg')} alt={'github'}/></a>
                 </div>
           
             </div>

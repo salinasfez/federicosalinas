@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css';
+import classes from './Projects.module.css';
 import mercyThumbnail from '../images/mercy_main.svg';
 
 
@@ -12,7 +12,7 @@ class Projects extends React.Component{
     }
     render(){
     return(
-            <div className='flex-container'>   
+            <div className={classes.Projects}>   
                     {/* <h2 id='main-header'>Mercy Health Appointment Center</h2> */}
                         <div className='image-container'>
                                 <a target='_blank' href={'https://federico-budget-app.herokuapp.com/'}><img src={require('../images/budget-app.svg')} className='images'id='first-image'/></a>
