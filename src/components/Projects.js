@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Projects.module.css';
-import mercyThumbnail from '../images/mercy_main.svg';
+
 
 
 class Projects extends React.Component{
@@ -22,8 +22,8 @@ class Projects extends React.Component{
                                      <h5> Budget Application</h5><br></br>
                                     <p> Technologies used: HTML5, Bootstrap, React, Javascript, Express, MongoDB</p>
                                     <p>Description: Keep track of your money by using this budgeting app.</p>
-                                    <a className='project-links' href={'https://federico-budget-app.herokuapp.com/'} target='_blank'>Project link ---></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a target='_blank' href='https://github.com/salinasfez/budget-app'>Github Code ---></a>
+                                    <a className={classes.projectLinks} href={'https://federico-budget-app.herokuapp.com/'} target='_blank'>Project link ---></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a target='_blank'className={classes.projectLinks} href='https://github.com/salinasfez/budget-app'>Github Code ---></a>
                                 </div>
                         </div>
                     <div className={classes.imageContainer}>
@@ -34,8 +34,8 @@ class Projects extends React.Component{
                                      <h5> 8ball Ink Tattoo</h5><br></br>
                                     <p> Technologies used: HTML5, Bootstrap, React, Javascript, Express</p>
                                     <p>Description: Business app able to send messages directly to owners mobile.</p>
-                                    <a className='project-links' href={'http://eightballinktattoo.com/'} target='_blank'>Website link ---></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a target='_blank' href='https://github.com/salinasfez/eightballinktatoo'>Github Code ---></a>
+                                    <a className={classes.projectLinks} href={'http://eightballinktattoo.com/'} target='_blank'>Website link ---></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a target='_blank' className={classes.projectLinks} href='https://github.com/salinasfez/eightballinktatoo'>Github Code ---></a>
                                 </div>
                         </div>
                         <div className={classes.imageContainer}>
@@ -46,8 +46,8 @@ class Projects extends React.Component{
                                      <h5> Mercy Clinic Appointment Center</h5><br></br>
                                     <p> Technologies used: HTML5, Bootstrap, React, Javascript, MongoDB, Express</p>
                                     <p>Description: Create, edit, and delete appointments.</p>
-                                    <a className='project-links' href={'https://mercy-appointment-center.herokuapp.com/appointments'} target='_blank'>Project link ---></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a target='_blank' href='https://github.com/salinasfez/mercy-clinic-heroku'>Github Code ---></a>
+                                    <a className={classes.projectLinks} href={'https://mercy-appointment-center.herokuapp.com/appointments'} target='_blank'>Project link ---></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a target='_blank' className={classes.projectLinks} href='https://github.com/salinasfez/mercy-clinic-heroku'>Github Code ---></a>
                                 </div>
                         </div>
             </div>

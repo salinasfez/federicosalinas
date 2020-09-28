@@ -1,113 +1,32 @@
 .AboutMe {
     color: white;
     margin: 5%;
-    background-color: rgb(40,119,183, .5);
+    background-color: #2877b780;
     padding: 5%;
     border: 1px solid white;
     border-radius: 1em;
 }
 
-.flex-container {
-    margin: 0 auto;
-    margin-top: 4%;
-    display: flex;
-    flex-direction: column;
-    width: 900px;
-    background-color: #f5f5f5;
-}
-.flex-item {
-    margin-top: 5%;
-}
-.federico {
-    width: 300px;
-    border-radius: 1em;
-}
-#paragraph {
-    text-align: start;
-    background-color: rgb(28, 124, 227);
-    padding: 5%;
-    font-size: 18px;
-}
-#technologies {
-    background-color: #d0cfcf;
-    padding: 5%;
-    font-size: 18px;
-}
-#download-resume-section {
-    margin-top: 5%;
-    background-color: #d0cfcf;
-    height: 20%;
-}
 @media screen and (max-width: 812px) {
-    .flex-container{
-        width: 100%;
+    .AboutMe {
+        color: white;
+        margin: 5%;
+        background-color: #2877b780;
+        padding: 5%;
+        border: 1px solid white;
+        border-radius: 1em;
     }
-    .images {
-        height: 100%;
-        
-    }
-    /* .images:nth-child(1){
-        height: 100%;
-    }
-    .images:nth-child(2){
-        height: 100%;
-    }
-    .images:nth-child(3){
-        height: 100%;
-    } */
 }
 
 
 @media screen and (max-width: 450px){
-    .flex-container {
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
+    .AboutMe {
+        color: white;
+        margin: 5%;
+        background-color: #2877b780;
+        padding: 5%;
+        border: 1px solid white;
+        border-radius: 1em;
     }
-    /* .image-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
-
    
-    .images{
-        /* border: 1px solid red; */
-        width: 80%;
-        margin-top: 5%;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-  
-        /* padding: 2.5%; */
-    }
- 
-    .projects-paragraph {
-        /* width: 100%; */
-        /* margin-right: 3%;
-        margin-left: 3%; */
-        font-size: 16px;
-        margin: 4%;
-    }
-    #first-image {
-        margin-top: 0%;
-    }
-    #paragraph {
-        /* border: 5px inset rgb(28, 124, 227); */
-
-        padding: 10px;
-        overflow: scroll;
-        height: 280px;
-        background-color: white;
-    }
-    .image-container {
-        display: flex;
-        flex-direction: column;
-    }
-    .project-details {
-        /* border: 1px solid red; */
-        width: 80%;
-        margin-left: 10%;
-        
-    }
 }

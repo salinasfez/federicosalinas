@@ -3,15 +3,15 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 12% 5% 5% 5%;
-    
+   
 }
-
+/* MY PHOTO */
 .me {
     /* border: 1px solid #ddd; */
     border: 1px solid white;
     border-radius: 50%;
     padding: 5px;
-    width: 70%;
+    width: 30%;
     /* margin-top: 150px; */
   }
 .me:hover {
@@ -22,53 +22,29 @@
     color: white;
     font-size: 38px;
 }
-.container {
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-}
+/* federico full stack dev and technologies section */
 .centerItem {
-    margin-top: 7%;
     margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
 }
-.jobDescription {
-    color: red;
-}
+
 .technologiesMain {
     margin-top: 3%;
-    background-color:  #E93F33;
+    background-color:  #e93f33b3;
     padding: 1%;
     color: white;
     font-size: 18px;
     border-radius: 1em;
     width: 100%;
 }
-.iconContainer {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.icons {
-    width: 6%;
 
-}
-.icons:hover{
-    transform: scale(1.2);
-}
-.resumeLink {
-    /* border: 1px solid red; */
-    width: 6%;
-    
-}
 @media screen and (max-width: 812px) {
-    body {
-    
-        align-content: center;
-        margin: 0 auto;
-    }
+
     .me {
-        border: 1px solid red;
+        border: 1px solid white;
         border-radius: 50%;
         width: 30%;
         height: 40%;
@@ -79,23 +55,16 @@
         box-shadow: 0 0 2px 1px red;
         opacity: .5;
       }
-    .who-i-am {
-        color: black;
+    .whoIAm {
+        color: white;
         font-size: 20px;
     }
-    .container {
-        margin-top: 2%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .center-item {
+
+    .centerItem {
         margin-top: 7%;
         margin-left: 5%;
     }
-    #job-description {
-        color: red;
-    }
-    #technologies-main {
+    .technologiesMain {
         margin-top: 7%;
         background-color:  #E93F33;
         padding: 1%;
@@ -104,43 +73,29 @@
         border-radius: 1em;
         width: 100%;
     }
-    .icon-container {
-        margin-top: 5%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .icons {
-        width: 10%;
-        height: 100%;
-    }
-    #resume-link {
-        width: 10%;
-        height: 100%;
-    }
+
 }
 
     
 @media screen and (max-width: 450px) {
 
-body {
-    
-    align-content: center;
-    margin: 0 auto;
-}
+    .Main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 12% 5% 5% 5%;
+       
+    }
 /* my picture */
 .me {
-    border: 1px solid red;
+    /* border: 1px solid #ddd; */
+    border: 1px solid white;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    margin-left: 23.33%;
-    
+    padding: 5px;
+    width: 30%;
+    margin-left: 35%;
   }
-  /* .me {
-      border: 1px solid red;
-      height: 100%;
-  } */
+ 
 
   /* my picture on hover */
 .me:hover {
@@ -148,59 +103,27 @@ body {
     opacity: .5;
   }
   /* name and occupation section */
-.who-i-am {
-    color: black;
-    font-size: 20px;
+.whoIAm {
+    color: white;
+    font-size: 18px;
 }
-.container {
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.center-item {
-    margin-top: 7%;
-    margin-left: 5%;
+
+.centerItem {
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-/* will make "full-stack developer" red */
-#job-description {
-    color: red;
-}
+
 /* technologies section */
-#technologies-main {
-    margin-top: 7%;
-    background-color:  #E93F33;
+.technologiesMain {
+    margin-top: 3%;
+    background-color:  #e93f33b3;
     padding: 1%;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 1em;
     width: 100%;
 }
-/* icon container so icons can line up in a row */
-.icon-container {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    /* border: 1px solid black; */
-}
-/* each individual icon will be 6% */
-.icons {
-    width: 10%;
-    height: 100%;
-    /* border: 1px dashed black; */
 
-}
-.icons:hover{
-    transform: scale(1.2);
-}
-#resume-link {
-   
-    width: 10%;
-    height: 100%;
-    
-}
 }
