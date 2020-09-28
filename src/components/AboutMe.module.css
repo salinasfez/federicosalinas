@@ -1,6 +1,10 @@
 .AboutMe {
     color: white;
     margin: 5%;
+    background-color: rgb(40,119,183, .5);
+    padding: 5%;
+    border: 1px solid white;
+    border-radius: 1em;
 }
 
 .flex-container {
