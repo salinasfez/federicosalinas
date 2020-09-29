@@ -45,7 +45,17 @@ p {
     text-align: left;
 }
 @media screen and (max-width: 812px) {
-
+    .images{
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 60%;
+        margin-top: 6.5%;
+    }
+    .projectDetails {
+        width: 150%;
+        padding: 2%;
+    }
 }
 @media screen and (max-width: 450px) {
     .imageContainer {
@@ -54,6 +64,10 @@ p {
     }
     h3 {
         font-size: 18px;
+    }
+    .projectDetails {
+        width: 100%;
+        padding: 2%;
     }
     .projectDetails h5 {
         font-size: 18px;
