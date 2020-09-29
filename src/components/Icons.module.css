@@ -45,7 +45,7 @@
 }
 /* each individual icon will be 6% */
 .icons {
-    width: 6%;
+    width: 8%;
     height: 100%;
     /* border: 1px dashed black; */
 
@@ -55,7 +55,7 @@
 }
 .resumeLink {
    
-    width: 6%;
+    width: 8%;
     height: 100%;
     
 }
