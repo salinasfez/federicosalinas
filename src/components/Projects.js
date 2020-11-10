@@ -13,9 +13,11 @@ class Projects extends React.Component{
     render(){
     return(
             <div className={classes.Projects}>   
-                        <h3 className={classes.imageContainer}>Projects</h3>
+                        
                         <div className={classes.imageContainer}>
-                                <a target='_blank' href={'https://federico-budget-app.herokuapp.com/'}><img src={require('../images/budgetapp.png')} className={classes.images} id='first-image'/></a>
+                            <div className={classes.imagenesDiv}>
+                                <a target='_blank' href={'https://federico-budget-app.herokuapp.com/'}><img src={require('../images/budgetapp.png')} className={classes.images}/></a>
+                            </div>
                                 {/* <img src={require('../images/mercy_appointments.svg')} className='images'/>
                                 <img src={require('../images/mercy_details.svg')} className='images'/> */}
                                 <div className={classes.projectDetails}>
@@ -27,7 +29,9 @@ class Projects extends React.Component{
                                 </div>
                         </div>
                     <div className={classes.imageContainer}>
-                                <a target='_blank' href={'http://eightballinktattoo.com/'}><img src={require('../images/eightball.png')} className={classes.images} id='first-image'/></a>
+                                <div className={classes.imagenesDiv}>
+                                <a target='_blank' href={'http://eightballinktattoo.com/'}><img src={require('../images/eightball.png')} className={classes.images}/></a>
+                                </div>
                                 {/* <img src={require('../images/mercy_appointments.svg')} className='images'/>
                                 <img src={require('../images/mercy_details.svg')} className='images'/> */}
                                 <div className={classes.projectDetails}>
@@ -39,7 +43,9 @@ class Projects extends React.Component{
                                 </div>
                         </div>
                         <div className={classes.imageContainer}>
-                                <a target='_blank' href={'https://mercy-appointment-center.herokuapp.com/appointments'}><img src={require('../images/mercyclinic.png')} className={classes.images} id='first-image'/></a>
+                                <div className={classes.imagenesDiv}>
+                                <a target='_blank' href={'https://mercy-appointment-center.herokuapp.com/appointments'}><img src={require('../images/mercyclinic.png')} className={classes.images} /></a>
+                                </div>
                                 {/* <img src={require('../images/mercy_appointments.svg')} className='images'/>
                                 <img src={require('../images/mercy_details.svg')} className='images'/> */}
                                 <div className={classes.projectDetails}>

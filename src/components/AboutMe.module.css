@@ -1,20 +1,19 @@
 .AboutMe {
     color: white;
     margin: 5%;
-    background-color: #2877b780;
+    /* background-color: #2877b780; */
+    background-color: #0b172fcc;
     padding: 5%;
-    border: 1px solid white;
-    border-radius: 1em;
+    /* border: 1px solid white; */
+    /* border-radius: 1em; */
 }
 
 @media screen and (max-width: 812px) {
     .AboutMe {
         color: white;
         margin: 5%;
-        background-color: #2877b780;
+        background-color: #0b172fcc;
         padding: 5%;
-        border: 1px solid white;
-        border-radius: 1em;
     }
 }
 
@@ -23,10 +22,8 @@
     .AboutMe {
         color: white;
         margin: 5%;
-        background-color: #2877b780;
         padding: 5%;
-        border: 1px solid white;
-        border-radius: 1em;
+        background-color: #0b172fcc;
     }
    
 }

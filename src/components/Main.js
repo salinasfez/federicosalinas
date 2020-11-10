@@ -15,7 +15,7 @@ class Main extends React.Component{
             <div className={classes.Main}>
                 <img className={classes.me}  src={require('../images/federico.JPG')} alt="background" />
                 <div className={classes.centerItem}>
-                    <h1 className={classes.whoIAm}>Federico Salinas || Full-Stack Developer</h1>
+                    <h1 className={classes.whoIAm}>Federico Salinas || <span>Full-Stack Developer</span></h1>
                     <h4 className={classes.technologiesMain}>HTML 5 | MongoDB | jQuery | Javascript | React | Ruby on Rails | Express | CSS3 | Bootstrap</h4>
                 </div>
             </div>
