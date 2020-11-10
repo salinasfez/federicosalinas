@@ -15,7 +15,7 @@ class Projects extends React.Component{
             <div className={classes.Projects}>   
                         
                         <div className={classes.imageContainer}>
-                            <div className={classes.imagenesDiv}>
+                            <div>
                                 <a target='_blank' href={'https://federico-budget-app.herokuapp.com/'}><img src={require('../images/budgetapp.png')} className={classes.images}/></a>
                             </div>
                                 {/* <img src={require('../images/mercy_appointments.svg')} className='images'/>
@@ -29,7 +29,7 @@ class Projects extends React.Component{
                                 </div>
                         </div>
                     <div className={classes.imageContainer}>
-                                <div className={classes.imagenesDiv}>
+                                <div>
                                 <a target='_blank' href={'http://eightballinktattoo.com/'}><img src={require('../images/eightball.png')} className={classes.images}/></a>
                                 </div>
     
