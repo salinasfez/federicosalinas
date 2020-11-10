@@ -56,32 +56,47 @@ p {
 }
 
 @media screen and (max-width: 812px) {
-    .images{
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 5px;
-        width: 60%;
-        margin-top: 6.5%;
+    .Projects {
+
+        display: flex;
+        flex-direction: row;
     }
-    .projectDetails {
-        width: 150%;
-        padding: 2%;
+    .imageContainer {
+       width: 100%;
+       margin: 0.5%;
+    }
+    .images {   
+        width: 90%;
+        height: 100%;
+        margin-top: 1%;
+    }
+    .projectDetails h5 {
+        margin-top: 5%;
+        font-size: 16px;
+    }
+    .imagenesDiv {
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+    .imagenCulera {
+        margin-top: 0%;
+        padding: 0;
     }
 }
 @media screen and (max-width: 450px) {
-    .imageContainer {
+    .Projects {
         display: flex;
         flex-direction: column;
     }
-  
-    h3 {
-        font-size: 18px;
+    .imageContainer {
+       width: 100%;
+       margin-bottom: 2%;
     }
-    .projectDetails {
-        width: 100%;
-        padding: 2%;
+    .images {
+        
+        width: 90%;
+        height: 100%;
+        margin-top: 1%;
     }
-    .projectDetails h5 {
-        font-size: 18px;
-    }
+   
 }

@@ -62,6 +62,9 @@ span {
         color: white;
         font-size: 20px;
     }
+    span {
+        font-size: 16px;
+    }
 
     .centerItem {
         margin-top: 7%;
@@ -109,6 +112,9 @@ span {
 .whoIAm {
     color: white;
     font-size: 18px;
+}
+span {
+    font-size: 14px;
 }
 
 .centerItem {

@@ -32,8 +32,7 @@ class Projects extends React.Component{
                                 <div className={classes.imagenesDiv}>
                                 <a target='_blank' href={'http://eightballinktattoo.com/'}><img src={require('../images/eightball.png')} className={classes.images}/></a>
                                 </div>
-                                {/* <img src={require('../images/mercy_appointments.svg')} className='images'/>
-                                <img src={require('../images/mercy_details.svg')} className='images'/> */}
+    
                                 <div className={classes.projectDetails}>
                                      <h5> 8ball Ink Tattoo</h5><br></br>
                                     <p> Technologies used: HTML5, Bootstrap, React, Javascript, Express</p>
@@ -43,11 +42,9 @@ class Projects extends React.Component{
                                 </div>
                         </div>
                         <div className={classes.imageContainer}>
-                                <div className={classes.imagenesDiv}>
+                                <div className={classes.imagenCulera}>
                                 <a target='_blank' href={'https://mercy-appointment-center.herokuapp.com/appointments'}><img src={require('../images/mercyclinic.png')} className={classes.images} /></a>
                                 </div>
-                                {/* <img src={require('../images/mercy_appointments.svg')} className='images'/>
-                                <img src={require('../images/mercy_details.svg')} className='images'/> */}
                                 <div className={classes.projectDetails}>
                                      <h5> Mercy Clinic Appointment Center</h5><br></br>
                                     <p> Technologies used: HTML5, Bootstrap, React, Javascript, MongoDB, Express</p>
