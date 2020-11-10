@@ -67,7 +67,7 @@ p {
     }
     .images {   
         width: 90%;
-        height: 120px;
+        height: 100%;
         margin-top: 1%;
     }
     .projectDetails h5 {
